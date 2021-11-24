@@ -1,7 +1,6 @@
 package nl.eawenden.urlservice.eventhandlers
 
-import nl.eawenden.urlservice.domain.ResourceAdded
-import nl.eawenden.urlservice.domain.ResourceLocationChanged
+import nl.eawenden.urlservice.domain.events.*
 import nl.eawenden.urlservice.repositories.Resource
 import nl.eawenden.urlservice.repositories.ResourceRepository
 import org.axonframework.eventhandling.EventHandler

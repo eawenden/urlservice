@@ -8,6 +8,9 @@ import org.axonframework.modelling.command.AggregateLifecycle.apply
 import org.axonframework.modelling.command.CreationPolicy
 import org.axonframework.spring.stereotype.Aggregate
 
+import nl.eawenden.urlservice.domain.commands.*
+import nl.eawenden.urlservice.domain.events.*
+
 @Aggregate(type = "Resource")
 class ResourceAggregate {
 

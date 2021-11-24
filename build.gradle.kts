@@ -23,7 +23,10 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+	implementation("org.axonframework.extensions.kotlin:axon-kotlin:0.2.0")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
+	testImplementation("org.axonframework:axon-test:4.5.1")
+	testImplementation("org.axonframework.extensions.kotlin:axon-kotlin-test:0.2.0")
 
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
 

@@ -1,6 +1,6 @@
 package nl.eawenden.urlservice.controllers
 
-import nl.eawenden.urlservice.domain.*
+import nl.eawenden.urlservice.domain.commands.*
 import org.axonframework.commandhandling.gateway.CommandGateway
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
